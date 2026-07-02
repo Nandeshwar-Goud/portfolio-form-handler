@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-form-handler",
+  "version": "1.0.0",
+  "description": "A lightweight Node.js/Express backend API built with Resend to process static HTML portfolio form submissions.",
+  "license": "ISC",
+  "author": "Nandeshwar-Goud",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+    
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "nodemailer": "^9.0.3"
+  }
+}
