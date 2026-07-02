@@ -7,7 +7,7 @@ const app = express();
 
 // Enable CORS so your frontend eg:-GitHub Pages site can access this backend
 app.use(cors({
-    origin: process.env.ORIGINCORS // In production, replace '*' with your actual frontend URL
+    origin: `${process.env.ORIGINCOR}` // In production, replace '*' with your actual frontend URL
 }));
 
 // built in middleware for the json of the body that we get from frontend
